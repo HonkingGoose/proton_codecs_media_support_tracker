@@ -1,3 +1,7 @@
+# Ignore Jetbrains IDE
+
+/.idea
+
 # Copy/paste Node.js Gitignore from GitHub/gitignore
 # This file is licensed under the Creative Commons Zero v1.0 Universal license.
 
