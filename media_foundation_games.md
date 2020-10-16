@@ -96,4 +96,4 @@ It's called `mfplat` in the Proton log files.
 | #3519 | MP4 (h264), OGG | Installing the legally problematic `mfplat` workaround got the videos working. |
 | #3911 | unknown | |
 | #4029 | MP4, AVC+AAC | Reporter tried the game with unofficial Proton-5.11-GE-1-MF, result: videos worked |
-| #4155 | MP4, AVC+AAC | Log mentions: `mfplat.dll mfreadwrite.dll Mf.dll`, once Media Foundatation libraries are installed, game works solid. |
+| #4155 | MP4, AVC+AAC | Log mentions: `mfplat.dll mfreadwrite.dll Mf.dll`, once Media Foundation libraries are installed, game works solid. |
