@@ -1,6 +1,6 @@
 ## Media Foundation + Quartz games
 
-This table list games that use Media Foundation and Quartz.
+This table lists games that use Media Foundation and Quartz.
 These games have `mfplat` and `quartz` in their Proton logs.
 
 | Issue |            Codecs            | Tested with | Remarks                                        |
