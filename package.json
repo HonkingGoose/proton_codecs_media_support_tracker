@@ -1,7 +1,7 @@
 {
   "name": "proton_codecs_media_support_tracker",
   "version": "1.0.0",
-  "private": "true",
+  "private": true,
   "description": "Tables for issue 1464 at upstream Proton project.",
   "dependencies": {},
   "devDependencies": {
