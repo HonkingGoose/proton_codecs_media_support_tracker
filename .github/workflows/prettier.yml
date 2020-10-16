@@ -32,4 +32,4 @@ jobs:
         run: npm ci
 
       - name: Lint files with Prettier
-        run: npm lint
+        run: npm run lint
