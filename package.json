@@ -1,0 +1,24 @@
+{
+  "name": "proton_codecs_media_support_tracker",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "Tables for issue 1464 at upstream Proton project.",
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  },
+  "scripts": {
+    "lint": "prettier --check .",
+    "fix": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HonkingGoose/proton_codecs_media_support_tracker.git"
+  },
+  "author": "HonkingGoose",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HonkingGoose/proton_codecs_media_support_tracker/issues"
+  },
+  "homepage": "https://github.com/HonkingGoose/proton_codecs_media_support_tracker#readme"
+}
