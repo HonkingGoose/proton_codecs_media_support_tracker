@@ -1,0 +1,35 @@
+# This workflow uses npm to install the dependencies, and then lints the files with Prettier.
+
+# This workflow is adapted from the one that the Prettier project uses.
+# It is licensed under the MIT license.
+
+name: Prettier
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.3
+
+      - name: Setup Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v2.1.2
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: npm ci
+        run: npm ci
+
+      - name: Lint files with Prettier
+        run: npm lint
