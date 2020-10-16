@@ -4,7 +4,7 @@ This table lists games which use the Media Foundation framework.
 It's called `mfplat` in the Proton log files.
 
 | Upstream Proton issue | Codecs used | Remarks |
-| --- | --- | --- |
+| ---: | :---: | --- |
 | #37 | unsure | Self Radio in GTA V does not work due to the lack of an implementation for ```mfplat:mfsourceresolver_CreateObjectFromURL``` |
 | #175 | unsure | Proton log contains ```MFPlat.DLL MFReadWrite.dll``` | 
 | #243 | .mp4 with H.264 video and AAC audio | Proton log contains ```mfplat.dll mfplay.dll mf.dll``` Minimal impact, videos only for intro credits and loading screens. See: https://github.com/ValveSoftware/Proton/issues/243#issuecomment-462080173 |

@@ -4,7 +4,7 @@ This table lists games which use the Quartz framework.
 It's called `quartz` in the Proton log files.
 
 | Upstream Proton issue | Codecs used | Remarks |
-| --- | --- | --- |
+| ---: | :---: | --- |
 | #44 | WMV, VC-1 + WMA | ```err:quartz:GetClassMediaFile Media class not found``` |
 | #90 | .wmv | `protontricks 278080 wmp9 quartz devenum` workaround fixes it according to reporter |
 | #137 | .wmv | Shows color bars pattern with Proton 5.13-1, Proton log contains `quartz.dll` |

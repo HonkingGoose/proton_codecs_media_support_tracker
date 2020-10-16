@@ -4,7 +4,7 @@ This table lists games which use the **WMVCore** framework.
 It's called `wmvcore` in the Proton log files.
 
 | Upstream Proton issue | Codecs used | Remarks |
-| --- | --- | --- |
+| ---: | :---: | --- |
 | #294 | WMV, VC-1 + WMA | From log: ```fixme:wmvcore:WMReader_Open``` |
 | #296 | VC-1 / OGG | From log: ```fixme:wmvcore:WMCreateSyncReader ((nil), 1, 0x59299798): stub``` |
 | #366 | VC-1 / WMA | From log: ```fixme:wmvcore:WMReader_Open``` |
