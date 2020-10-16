@@ -1,3 +1,7 @@
+# Ignore Renovate bot config
+
+renovate.json
+
 # Copy/paste Node.js Gitignore from GitHub/gitignore and use it as Prettier ignore as well.
 # This file is licensed under the Creative Commons Zero v1.0 Universal license.
 
