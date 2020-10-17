@@ -1,4 +1,5 @@
 ![Prettier](https://github.com/HonkingGoose/proton_codecs_media_support_tracker/workflows/Prettier/badge.svg)
+![Labeler](https://github.com/HonkingGoose/proton_codecs_media_support_tracker/workflows/Labeler/badge.svg)
 
 # Proton Codecs Media Support Tracker
 
