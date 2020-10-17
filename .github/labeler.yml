@@ -1,0 +1,19 @@
+# This file controls what labels the workflows/label.yml GitHub Action uses.
+
+gstreamer:
+  - tables/gstreamer.md
+
+media_foundation:
+  - tables/media_foundation.md
+
+media_foundation_quartz:
+  - tables/mfplat_plus_quartz.md
+
+quartz:
+  - tables/quartz.md
+
+wmvcore:
+  - tables/wmvcore.md
+
+xna:
+  - tables/xna.md
