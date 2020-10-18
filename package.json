@@ -12,7 +12,7 @@
   },
   "scripts": {
     "lint": "prettier --check .",
-    "fix": "prettier --write ."
+    "lint-fix": "prettier --write ."
   },
   "repository": {
     "type": "git",
