@@ -5,7 +5,7 @@
 
 ## What this project covers
 
-This repository contains the Markdown tables for issue [#1464](https://github.com/ValveSoftware/Proton/issues/1464) at the upstream Proton project.
+This repository contains the GitHub Flavoured Markdown tables for issue [#1464](https://github.com/ValveSoftware/Proton/issues/1464) at the upstream Proton project.
 This project has no further affiliation with the upstream Proton project, and is not endorsed by Valve or Proton.
 
 ## How to contribute
