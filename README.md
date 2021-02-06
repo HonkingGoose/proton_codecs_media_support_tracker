@@ -40,7 +40,7 @@ Read the [GitHub.com docs on organizing information with tables](https://docs.gi
 1. Open the table you want to edit in your text editor of choice.
 1. Add a new table entry, or edit an existing entry, look at the previous entries for an example.
 1. Save your work in the text editor.
-1. Run `npm run lint-fix` to run the Prettier formatter.
+1. Run `npm run prettier-fix` to run the Prettier formatter.
 1. Commit your work with Git.
 1. Push the branch to your fork.
 1. Open a pull request and fill in the template.

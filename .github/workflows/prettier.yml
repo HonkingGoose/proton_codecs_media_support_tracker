@@ -20,7 +20,7 @@ jobs:
         node-version: [14.x]
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v2.3.4
 
       - name: Setup Node.js ${{ matrix.node-version }}
@@ -28,8 +28,8 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: npm ci
+      - name: Install dependencies with npm ci
         run: npm ci
 
-      - name: Lint files with Prettier
-        run: npm run lint
+      - name: Check for Prettier errors
+        run: npm run prettier

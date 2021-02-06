@@ -12,8 +12,8 @@
     "npm": "^6.14.11"
   },
   "scripts": {
-    "lint": "prettier --check .",
-    "lint-fix": "prettier --write ."
+    "prettier": "prettier --check .",
+    "prettier-fix": "prettier --write ."
   },
   "repository": {
     "type": "git",
