@@ -1,6 +1,13 @@
 {
-  "extends": [
-    "config:base"
-  ],
-  "dependencyDashboard": true
+  "extends": ["config:base", "helpers:pinGitHubActionDigests"],
+  "dependencyDashboard": true,
+  "prCreation": "not-pending",
+  "internalChecksFilter": "strict",
+  "packageRules": [
+    {
+      "description": "Wait 3 days before creating a npm update PR",
+      "matchDatasources": ["npm"],
+      "stabilityDays": 3
+    }
+  ]
 }
