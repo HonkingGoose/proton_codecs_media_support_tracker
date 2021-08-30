@@ -1,6 +1,5 @@
 {
   "extends": ["config:base", "helpers:pinGitHubActionDigests"],
-  "dependencyDashboard": true,
   "prCreation": "not-pending",
   "internalChecksFilter": "strict",
   "packageRules": [
