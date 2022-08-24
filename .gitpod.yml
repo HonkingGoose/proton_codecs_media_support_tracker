@@ -1,0 +1,7 @@
+# This is the configuration file for Gitpod.
+
+tasks:
+  - init: >
+      nvm install 16 &&
+      nvm use 16 &&
+      npm install

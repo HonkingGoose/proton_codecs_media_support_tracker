@@ -7,10 +7,6 @@
   "devDependencies": {
     "prettier": "2.7.1"
   },
-  "engines": {
-    "node": ">=14.16.1",
-    "npm": "^6.14.12"
-  },
   "scripts": {
     "prettier": "prettier --check .",
     "prettier-fix": "prettier --write ."
