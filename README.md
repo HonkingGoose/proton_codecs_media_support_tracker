@@ -4,24 +4,24 @@
 
 ## What this project covers
 
-This repository contains the GitHub Flavoured Markdown tables for issue [#1464](https://github.com/ValveSoftware/Proton/issues/1464) at the upstream Proton project.
-This repository does not contain any codecs or programs to help you play games with missing videos with Proton.
+This repository has the GitHub Flavoured Markdown tables for issue [#1464](https://github.com/ValveSoftware/Proton/issues/1464) at the upstream Proton project.
+This repository does not have any codecs or programs to help you play games with missing videos with Proton.
 
 This project has no further affiliation with the upstream Proton project, and is not endorsed by Valve or Proton.
 
 ## How to contribute
 
-This project accepts pull requests to update the tables with new findings regarding the codecs and media framework support.
+This project accepts pull requests to update the tables with new findings about the codecs and media framework support.
 
-Please do not open issues for things that belong to the upstream Proton project.
+Please don't open issues for things that belong to the upstream Proton project.
 
-### How do I know what table I should edit?
+### How do I know what table to edit?
 
 This repository tracks games that have problems with the video playback.
 
-In-game rendered cutscene problems are out of scope for this repository, please report those problems at the upstream Proton project.
+In-game rendered cutscene problems are out-of-scope for this repository, please report those problems at the upstream Proton project.
 
-The Proton log usually contains clues about what video framework the game uses.
+The Proton log usually has clues about what video framework the game uses.
 The [Proton Wiki, missing cinematic/cutscenes](https://github.com/ValveSoftware/Proton/wiki/Checklist-Proton-bugs#missing-cinematiccutscenes) has more information on this.
 Read this Wiki entry before starting your work.
 
