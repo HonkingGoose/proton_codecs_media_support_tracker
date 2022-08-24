@@ -1,5 +1,7 @@
 ![Prettier](https://github.com/HonkingGoose/proton_codecs_media_support_tracker/workflows/Prettier/badge.svg)
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/HonkingGoose/proton_codecs_media_support_tracker/)
+
 # Proton Codecs Media Support Tracker
 
 ## What this project covers
