@@ -1,7 +1,6 @@
 {
   "extends": ["config:base", "helpers:pinGitHubActionDigests"],
   "prCreation": "not-pending",
-  "internalChecksFilter": "strict",
   "packageRules": [
     {
       "description": "Wait 3 days before creating a npm update PR",
