@@ -1,11 +1,10 @@
 {
-  "extends": ["config:base", "helpers:pinGitHubActionDigests"],
-  "prCreation": "not-pending",
+  "extends": ["config:best-practices"],
   "packageRules": [
     {
       "description": "Wait 3 days before creating a npm update PR",
       "matchDatasources": ["npm"],
-      "stabilityDays": 3
+      "minimumReleaseAge": "3 days"
     }
   ]
 }
