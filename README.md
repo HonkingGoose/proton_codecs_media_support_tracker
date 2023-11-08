@@ -1,8 +1,12 @@
 ![Prettier](https://github.com/HonkingGoose/proton_codecs_media_support_tracker/workflows/Prettier/badge.svg)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/HonkingGoose/proton_codecs_media_support_tracker/)
-
 # Proton Codecs Media Support Tracker
+
+## This project is archived
+
+Nobody has contributed to the Markdown tables in a long while, so I assume this project is no longer useful.
+
+I'm archiving this repository, so the maintainers of Proton can still access the tables.
 
 ## What this project covers
 
